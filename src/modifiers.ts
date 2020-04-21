@@ -10,6 +10,7 @@ export interface Modifiers {
   [Modifier.CONTROL]: boolean;
   [Modifier.META]: boolean;
   [Modifier.ALT]: boolean;
+  [k: string]: boolean;
 }
 
 export enum ModifierWin {
