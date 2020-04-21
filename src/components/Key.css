@@ -1,0 +1,31 @@
+.Key {
+  display: inline-block;
+  width: 100%;
+  height: 4em;
+  position: relative;
+  border-radius: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  user-select: none;
+}
+
+.Key--pressed {
+  margin-top: 0.4em;
+  margin-bottom: 0;
+}
+
+@media (pointer: coarse) {
+  .Key:active {
+    margin-top: 0.4em;
+    margin-bottom: 0;
+  }
+}
+
+.Key-symbol {
+  width: 1em;
+  height: 1em;
+}
+
+.Key-symbol path {
+  fill: currentColor;
+}
